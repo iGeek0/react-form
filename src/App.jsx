@@ -30,22 +30,22 @@ function App() {
           <h3>Login</h3>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
-              <label htmlFor="exampleInputEmail1" className="form-label">Email</label>
+              <label htmlFor="emailInput" className="form-label">Email</label>
               <input
                 type="email"
                 className="form-control"
-                id="exampleInputEmail1"
+                id="emailInput"
                 onChange={handleInputChange}
                 value={formulario.email}
                 name='email'
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
+              <label htmlFor="passwordInput" className="form-label">Password</label>
               <input
                 type="password"
                 className="form-control"
-                id="exampleInputPassword1"
+                id="passwordInput"
                 onChange={handleInputChange}
                 value={formulario.password}
                 name='password'
